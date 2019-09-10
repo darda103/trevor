@@ -1,0 +1,55 @@
+.banner {
+	background: url(../img/banner1.jpg) center center no-repeat fixed;
+	background-size: cover;
+	.banner-txt {
+		padding: 300px 0;
+		text-align: center;
+		h1 {
+			font-weight: 800;
+			font-size: 60px;
+			text-transform: uppercase;
+			color: $sada;
+			margin: 0;
+			span {
+				text-decoration: underline;
+				text-decoration-color: $bg5;
+			}
+		}
+		p {
+			font-size: 20px;
+			text-transform: uppercase;
+			color: $sada;
+			font-weight: 400;
+			span {
+				font-weight: 700;
+				font-size: 30px;
+			}
+		}
+	}
+	.banner-img {
+		padding: 20px 0;
+		border: 5px solid $bg6;
+		img {
+			max-width: 100%;
+			margin-left: -20px;
+		}
+	}
+	.social {
+		i {
+			color: $sada;
+			border: 2px solid $bg6;
+			height: 40px;
+			width: 40px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 40px;
+			margin: 5px 0;
+			cursor: pointer;
+			transition: .3s;
+			&:hover {
+				background: linear-gradient(to left, $bg7, $bg5);
+				border-radius: 0px 15px 15px 0px;
+			}
+		}
+	}
+}

@@ -1,0 +1,906 @@
+/*col-lg*/
+/*laptop or medium pc*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/*=======================================
+	==========banner responsive==========
+	=======================================*/
+	.banner .banner-txt h1 {
+		font-size: 30px;
+	}
+	.banner .banner-txt p {
+		font-size: 12px;
+	}
+	.banner .banner-txt p span {
+		font-size: 16px;
+	}
+	/*=======================================
+	==========about responsive==========
+	=======================================*/
+	.about .about-txt .ul {
+		padding: 20px 0;
+	}
+	.about .about-txt .ul ul li {
+		width: 50%;
+	}
+	.about .about-txt .ul ul li span {
+		display: inline-block;
+    	min-width: 40%;
+	}
+	.about .about-txt .button button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========footer responsive==========
+	=======================================*/
+	.footer .footer-s .social {
+		font-size: 15px;
+	}
+	.footer .footer-t p {
+		font-size: 14px;
+	}
+}
+
+/*as col-md*/
+/*tablet device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*=======================================
+	==========header responsive==========
+	=======================================*/
+	.header .logo a {
+		display: inline-block;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		font-size: 25px;
+		border: 1px solid #4eb191;
+		color: #4eb191;
+		float: right;
+	    margin: 13px 0 12px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 0;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+	    padding: 8px 15px;
+	    font-weight: 600;
+	}
+	.header .navbar .navbar-nav .nav-item:last-child .nav-link {
+		margin-bottom: 15px;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link.hvr-underline-from-center:before {
+		display: none;
+	}
+	/*=======================================
+	==========banner responsive==========
+	=======================================*/
+	.banner .banner-txt {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.banner .banner-txt h1 {
+		font-size: 30px;
+	}
+	.banner .banner-txt p {
+		font-size: 12px;
+	}
+	.banner .banner-txt p span {
+		font-size: 16px;
+	}
+	.banner .social {
+		text-align: center;
+	}
+	.banner .social i {
+		margin: 10px 0;
+	}
+	.banner .social i:hover {
+		border-radius: 5px;
+	}
+	/*=======================================
+	==========about responsive==========
+	=======================================*/
+	.about {
+		padding: 60px 0;
+	}
+	.about .heading {
+		margin-bottom: 40px;
+	}
+	.about .heading h2 {
+		font-size: 30px;
+	}
+	.about .heading p {
+		font-size: 16px;
+	}
+	.about .about-txt {
+		padding: 10px;
+	}
+	.about .about-txt h3 {
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	.about .about-txt p {
+		font-size: 15px;
+	}
+	.about .about-txt .ul {
+		padding: 20px 0;
+	}
+	.about .about-txt .ul ul li {
+		width: 50%;
+	}
+	.about .about-txt .ul ul li span {
+		display: inline-block;
+    	min-width: 40%;
+	}
+	.about .about-txt .button button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========service responsive==========
+	=======================================*/
+	.service {
+		padding: 60px 0;
+	}
+	.service .heading {
+		margin-bottom: 40px;
+	}
+	.service .heading h2 {
+		font-size: 30px;
+	}
+	.service .heading p {
+		font-size: 16px;;
+	}
+	.service .service-box {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.service .service-box h3 {
+		font-size: 20px;
+	}
+	.service .service-box p {
+		font-size: 15px;
+	}
+	/*=======================================
+	==========portfolio responsive==========
+	=======================================*/
+	.portfolio {
+		padding: 60px 0;
+	}
+	.portfolio .heading {
+		margin-bottom: 40px;
+	}
+	.portfolio .heading h2 {
+		font-size: 30px;
+	}
+	.portfolio .heading p {
+		font-size: 16px;
+	}
+	/*=======================================
+	==========testimonial responsive==========
+	=======================================*/
+	.testimonial {
+		padding: 60px 0;
+	}
+	.testimonial .heading {
+		margin-bottom: 40px;
+	}
+	.testimonial .heading h2 {
+		font-size: 30px;
+	}
+	.testimonial .heading p {
+		font-size: 16px;
+	}
+	.testimonial .testi .comment {
+		padding: 20px 0;
+	}
+	/*=======================================
+	==========blog responsive==========
+	=======================================*/
+	.blog {
+		padding: 60px 0;
+	}
+	.blog .heading {
+		margin-bottom: 40px;
+	}
+	.blog .heading h2 {
+		font-size: 30px;
+	}
+	.blog .heading p {
+		font-size: 16px;
+	}
+	.blog .blog-d {
+		margin-bottom: 15px;
+	}
+	.blog .blog-d .blog-t button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========contact responsive==========
+	=======================================*/
+	.contact {
+		padding: 60px 0;
+	}
+	.contact .heading {
+		margin-bottom: 40px;
+	}
+	.contact .heading h2 {
+		font-size: 30px;
+	}
+	.contact .heading p {
+		font-size: 16px;
+	}
+	.contact form input {
+		height: 40px;
+		line-height: 40px;
+	}
+	.contact form textarea {
+		height: 100px;
+	}
+	.contact form button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========footer responsive==========
+	=======================================*/
+	.footer .footer-s .social {
+		font-size: 15px;
+	}
+	.footer .footer-t p {
+		font-size: 14px;
+	}
+}
+
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/*=======================================
+	==========header responsive==========
+	=======================================*/
+	.header .logo a {
+		display: inline-block;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		font-size: 25px;
+		border: 1px solid #4eb191;
+		color: #4eb191;
+		float: right;
+	    margin: 13px 0 12px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 0;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+	    padding: 8px 15px;
+	    font-weight: 600;
+	}
+	.header .navbar .navbar-nav .nav-item:last-child .nav-link {
+		margin-bottom: 15px;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link.hvr-underline-from-center:before {
+		display: none;
+	}
+	/*=======================================
+	==========banner responsive==========
+	=======================================*/
+	.banner .banner-txt {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.banner .banner-txt h1 {
+		font-size: 30px;
+	}
+	.banner .banner-txt p {
+		font-size: 12px;
+	}
+	.banner .banner-txt p span {
+		font-size: 16px;
+	}
+	.banner .social {
+		text-align: center;
+	}
+	.banner .social i {
+		margin: 10px 0;
+	}
+	.banner .social i:hover {
+		border-radius: 5px;
+	}
+	/*=======================================
+	==========about responsive==========
+	=======================================*/
+	.about {
+		padding: 60px 0;
+	}
+	.about .heading {
+		margin-bottom: 40px;
+	}
+	.about .heading h2 {
+		font-size: 30px;
+	}
+	.about .heading p {
+		font-size: 16px;
+	}
+	.about .about-txt {
+		padding: 10px;
+	}
+	.about .about-txt h3 {
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	.about .about-txt p {
+		font-size: 15px;
+	}
+	.about .about-txt .ul {
+		padding: 20px 0;
+	}
+	.about .about-txt .ul ul li {
+		width: 100%;
+	}
+	.about .about-txt .ul ul li span {
+		display: inline-block;
+    	min-width: 40%;
+	}
+	.about .about-txt .button button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========service responsive==========
+	=======================================*/
+	.service {
+		padding: 60px 0;
+	}
+	.service .heading {
+		margin-bottom: 40px;
+	}
+	.service .heading h2 {
+		font-size: 30px;
+	}
+	.service .heading p {
+		font-size: 16px;;
+	}
+	.service .service-box {
+		margin-bottom: 20px;
+	}
+	.service .service-box h3 {
+		font-size: 20px;
+	}
+	.service .service-box p {
+		font-size: 15px;
+	}
+	/*=======================================
+	==========portfolio responsive==========
+	=======================================*/
+	.portfolio {
+		padding: 60px 0;
+	}
+	.portfolio .heading {
+		margin-bottom: 40px;
+	}
+	.portfolio .heading h2 {
+		font-size: 30px;
+	}
+	.portfolio .heading p {
+		font-size: 16px;
+	}
+	/*=======================================
+	==========testimonial responsive==========
+	=======================================*/
+	.testimonial {
+		padding: 60px 0;
+	}
+	.testimonial .heading {
+		margin-bottom: 40px;
+	}
+	.testimonial .heading h2 {
+		font-size: 30px;
+	}
+	.testimonial .heading p {
+		font-size: 16px;
+	}
+	.testimonial .testi .comment {
+		padding: 20px 0;
+	}
+	/*=======================================
+	==========blog responsive==========
+	=======================================*/
+	.blog {
+		padding: 60px 0;
+	}
+	.blog .heading {
+		margin-bottom: 40px;
+	}
+	.blog .heading h2 {
+		font-size: 30px;
+	}
+	.blog .heading p {
+		font-size: 16px;
+	}
+	.blog .blog-d {
+		margin-bottom: 15px;
+	}
+	.blog .blog-d .blog-t button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========contact responsive==========
+	=======================================*/
+	.contact {
+		padding: 60px 0;
+	}
+	.contact .heading {
+		margin-bottom: 40px;
+	}
+	.contact .heading h2 {
+		font-size: 30px;
+	}
+	.contact .heading p {
+		font-size: 16px;
+	}
+	.contact form input {
+		height: 40px;
+		line-height: 40px;
+	}
+	.contact form textarea {
+		height: 100px;
+	}
+	.contact form button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========footer responsive==========
+	=======================================*/
+	.footer .footer-s .social {
+		font-size: 15px;
+	}
+	.footer .footer-t p {
+		font-size: 14px;
+	}
+}
+
+/*medium mobile device*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+	/*=======================================
+	==========header responsive==========
+	=======================================*/
+	.header .logo a {
+		display: inline-block;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		font-size: 25px;
+		border: 1px solid #4eb191;
+		color: #4eb191;
+		float: right;
+	    margin: 13px 0 12px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 0;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+	    padding: 8px 15px;
+	    font-weight: 600;
+	}
+	.header .navbar .navbar-nav .nav-item:last-child .nav-link {
+		margin-bottom: 15px;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link.hvr-underline-from-center:before {
+		display: none;
+	}
+	/*=======================================
+	==========banner responsive==========
+	=======================================*/
+	.banner .banner-txt {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.banner .banner-txt h1 {
+		font-size: 30px;
+	}
+	.banner .banner-txt p {
+		font-size: 12px;
+	}
+	.banner .banner-txt p span {
+		font-size: 16px;
+	}
+	.banner .social {
+		text-align: center;
+	}
+	.banner .social i {
+		margin: 10px 0;
+	}
+	.banner .social i:hover {
+		border-radius: 5px;
+	}
+	/*=======================================
+	==========about responsive==========
+	=======================================*/
+	.about {
+		padding: 60px 0;
+	}
+	.about .heading {
+		margin-bottom: 40px;
+	}
+	.about .heading h2 {
+		font-size: 30px;
+	}
+	.about .heading p {
+		font-size: 16px;
+	}
+	.about .about-txt {
+		padding: 10px;
+	}
+	.about .about-txt h3 {
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	.about .about-txt p {
+		font-size: 15px;
+	}
+	.about .about-txt .ul {
+		padding: 20px 0;
+	}
+	.about .about-txt .ul ul li {
+		width: 100%;
+	}
+	.about .about-txt .ul ul li span {
+		display: inline-block;
+    	min-width: 40%;
+	}
+	.about .about-txt .button button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========service responsive==========
+	=======================================*/
+	.service {
+		padding: 60px 0;
+	}
+	.service .heading {
+		margin-bottom: 40px;
+	}
+	.service .heading h2 {
+		font-size: 30px;
+	}
+	.service .heading p {
+		font-size: 16px;;
+	}
+	.service .service-box {
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.service .service-box h3 {
+		font-size: 20px;
+	}
+	.service .service-box p {
+		font-size: 15px;
+	}
+	/*=======================================
+	==========portfolio responsive==========
+	=======================================*/
+	.portfolio {
+		padding: 60px 0;
+	}
+	.portfolio .heading {
+		margin-bottom: 40px;
+	}
+	.portfolio .heading h2 {
+		font-size: 30px;
+	}
+	.portfolio .heading p {
+		font-size: 16px;
+	}
+	/*=======================================
+	==========testimonial responsive==========
+	=======================================*/
+	.testimonial {
+		padding: 60px 0;
+	}
+	.testimonial .heading {
+		margin-bottom: 40px;
+	}
+	.testimonial .heading h2 {
+		font-size: 30px;
+	}
+	.testimonial .heading p {
+		font-size: 16px;
+	}
+	.testimonial .testi .comment {
+		padding: 20px 0;
+	}
+	/*=======================================
+	==========blog responsive==========
+	=======================================*/
+	.blog {
+		padding: 60px 0;
+	}
+	.blog .heading {
+		margin-bottom: 40px;
+	}
+	.blog .heading h2 {
+		font-size: 30px;
+	}
+	.blog .heading p {
+		font-size: 16px;
+	}
+	.blog .blog-d {
+		margin-bottom: 15px;
+	}
+	.blog .blog-d .blog-t button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========contact responsive==========
+	=======================================*/
+	.contact {
+		padding: 60px 0;
+	}
+	.contact .heading {
+		margin-bottom: 40px;
+	}
+	.contact .heading h2 {
+		font-size: 30px;
+	}
+	.contact .heading p {
+		font-size: 16px;
+	}
+	.contact form input {
+		height: 40px;
+		line-height: 40px;
+	}
+	.contact form textarea {
+		height: 100px;
+	}
+	.contact form button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========footer responsive==========
+	=======================================*/
+	.footer .footer-s .social {
+		font-size: 15px;
+	}
+	.footer .footer-t p {
+		font-size: 14px;
+	}
+}
+
+/*small mobile device*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	/*=======================================
+	==========header responsive==========
+	=======================================*/
+	.header .logo a {
+		display: inline-block;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		font-size: 25px;
+		border: 1px solid #4eb191;
+		color: #4eb191;
+		float: right;
+	    margin: 13px 0 12px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 0;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+	    padding: 8px 15px;
+	    font-weight: 600;
+	}
+	.header .navbar .navbar-nav .nav-item:last-child .nav-link {
+		margin-bottom: 15px;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link.hvr-underline-from-center:before {
+		display: none;
+	}
+	/*=======================================
+	==========banner responsive==========
+	=======================================*/
+	.banner .banner-txt {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.banner .banner-txt h1 {
+		font-size: 30px;
+	}
+	.banner .banner-txt p {
+		font-size: 12px;
+	}
+	.banner .banner-txt p span {
+		font-size: 16px;
+	}
+	.banner .social {
+		text-align: center;
+	}
+	.banner .social i {
+		margin: 10px 0;
+	}
+	.banner .social i:hover {
+		border-radius: 5px;
+	}
+	/*=======================================
+	==========about responsive==========
+	=======================================*/
+	.about {
+		padding: 60px 0;
+	}
+	.about .heading {
+		margin-bottom: 40px;
+	}
+	.about .heading h2 {
+		font-size: 30px;
+	}
+	.about .heading p {
+		font-size: 16px;
+	}
+	.about .about-txt {
+		padding: 10px;
+	}
+	.about .about-txt h3 {
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	.about .about-txt p {
+		font-size: 15px;
+	}
+	.about .about-txt .ul {
+		padding: 20px 0;
+	}
+	.about .about-txt .ul ul li {
+		width: 100%;
+	}
+	.about .about-txt .ul ul li span {
+		display: inline-block;
+    	min-width: 40%;
+	}
+	.about .about-txt .button button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========service responsive==========
+	=======================================*/
+	.service {
+		padding: 60px 0;
+	}
+	.service .heading {
+		margin-bottom: 40px;
+	}
+	.service .heading h2 {
+		font-size: 30px;
+	}
+	.service .heading p {
+		font-size: 16px;;
+	}
+	.service .service-box {
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.service .service-box h3 {
+		font-size: 20px;
+	}
+	.service .service-box p {
+		font-size: 15px;
+	}
+	/*=======================================
+	==========portfolio responsive==========
+	=======================================*/
+	.portfolio {
+		padding: 60px 0;
+	}
+	.portfolio .heading {
+		margin-bottom: 40px;
+	}
+	.portfolio .heading h2 {
+		font-size: 30px;
+	}
+	.portfolio .heading p {
+		font-size: 16px;
+	}
+	/*=======================================
+	==========testimonial responsive==========
+	=======================================*/
+	.testimonial {
+		padding: 60px 0;
+	}
+	.testimonial .heading {
+		margin-bottom: 40px;
+	}
+	.testimonial .heading h2 {
+		font-size: 30px;
+	}
+	.testimonial .heading p {
+		font-size: 16px;
+	}
+	.testimonial .testi .comment {
+		padding: 20px 0;
+	}
+	/*=======================================
+	==========blog responsive==========
+	=======================================*/
+	.blog {
+		padding: 60px 0;
+	}
+	.blog .heading {
+		margin-bottom: 40px;
+	}
+	.blog .heading h2 {
+		font-size: 30px;
+	}
+	.blog .heading p {
+		font-size: 16px;
+	}
+	.blog .blog-d {
+		margin-bottom: 15px;
+	}
+	.blog .blog-d .blog-t button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========contact responsive==========
+	=======================================*/
+	.contact {
+		padding: 60px 0;
+	}
+	.contact .heading {
+		margin-bottom: 40px;
+	}
+	.contact .heading h2 {
+		font-size: 30px;
+	}
+	.contact .heading p {
+		font-size: 16px;
+	}
+	.contact form input {
+		height: 40px;
+		line-height: 40px;
+	}
+	.contact form textarea {
+		height: 100px;
+	}
+	.contact form button {
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	/*=======================================
+	==========footer responsive==========
+	=======================================*/
+	.footer .footer-s .social {
+		font-size: 15px;
+	}
+	.footer .footer-t p {
+		font-size: 14px;
+	}
+}

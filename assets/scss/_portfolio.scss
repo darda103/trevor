@@ -1,0 +1,124 @@
+.portfolio {
+	padding: 120px 0;
+	background: rgba(#444, 0.9);
+	.heading {
+		border-left: 5px solid $bg6;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 60px;
+		h2 {
+			font-size: 40px;
+			font-weight: 800;
+			color: $sada;
+			text-transform: capitalize;
+			margin: 0;
+		}
+		p {
+			font-weight: 600;
+			font-size: 18px;
+			color: $sada;
+			margin: 0;
+		}
+	}
+	.control {
+		margin-bottom: 20px;
+		button {
+			background: transparent;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 0 20px;
+			height: 30px;
+			line-height: 30px;
+			color: $bg6;
+			border: 2px solid $bg6;
+			outline: none;
+			margin: 10px;
+			transition: all 0.6s;
+			&:hover {
+				background: linear-gradient(to left, $bg7, $bg6);
+				color: $sada;
+			}
+			&:focus {
+				color: $sada;
+			}
+			&.active {
+				background: linear-gradient(to left, $bg7, $bg6);
+				color: $sada;
+			}
+		}
+	}
+	.port {
+		.port-item {
+			height: 170px;
+			overflow: hidden;
+			margin-bottom: 20px;
+			img {
+				width: 100%;
+			}
+			.modal {
+				  display: none;
+				  position: fixed;
+				  z-index: 1;
+				  padding-top: 100px;
+				  left: 0;
+				  top: 0;
+				  width: 100%;
+				  height: 100%;
+				  overflow: auto;
+				  background-color: rgba(0,0,0,0.8);
+				  .modal-content {
+				  	  margin: auto;
+					  display: block;
+					  width: 80%;
+					  max-width: 700px;
+			    	  animation-name: zoom;
+					  animation-duration: 0.6s;
+				  }
+				  @keyframes zoom {
+				  from {transform:scale(0)}
+				  to {transform:scale(1)}
+				  }
+				  .close {
+				  	position: absolute;
+				  	top: 15px;
+				  	right: 35px;
+				  	color: #f1f1f1;
+				  	font-size: 40px;
+				  	font-weight: bold;
+				  	transition: 0.3s;
+				  	&:hover {
+				  		color: #bbb;
+						text-decoration: none;
+						cursor: pointer;
+				  	}
+				  }
+			}
+			.overlay {
+				position: absolute;
+				top: 10%;
+				left: 15%;
+				width: 70%;
+				height: 70%;
+				background: rgba($bg6, 0.5);
+				opacity: 0;
+				cursor: pointer;
+				transition: 0.6s;
+				h2 {
+					color: $b;
+					font-size: 25px;
+					font-weight: 700;
+					text-transform: uppercase;
+					text-align: center;
+					margin-top: 50px;
+					border-bottom: 2px solid $bg6;
+				}
+			}
+			&:hover {
+				.overlay {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}

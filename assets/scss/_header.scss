@@ -1,0 +1,51 @@
+.scroll {
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+    z-index: 10;
+	display: none;
+	i {
+		font-size: 30px;
+		color: $bg5;
+		transition: all 0.4s;
+		cursor: pointer;
+		&:hover {
+			color: $bg7;
+		}
+	}
+}
+
+.header {
+	background: linear-gradient(to left, #444, #222);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	.logo {
+		img {
+			max-width: 100%;
+		}
+	}
+	.navbar {
+		padding: 0;
+		.navbar-nav {
+			.nav-item {
+				padding: 30px 20px;
+				.nav-link {
+					padding: 5px 0;
+					text-transform: uppercase;
+					color: $sada;
+					font-weight: 700;
+					transition: 0.3s;
+					&:hover {
+						color: $sada;
+					}
+					&.hvr-underline-from-center {
+						&:before {
+							background: linear-gradient(to right, $bg7, 60%, $bg5);
+						}
+					}
+				}
+			}
+		}
+	}
+}

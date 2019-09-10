@@ -1,0 +1,39 @@
+.footer {
+	background: linear-gradient(to left, #444, #222);
+	border-top: 5px solid $p;
+	padding: 30px 0;
+	.footer-s {
+		text-align: center;
+		.social {
+			color: $bg5;
+			text-decoration: none;
+			transition: all 0.6s;
+			font-weight: 700;
+			font-size: 20px;
+			margin: 0 20px;
+			&:hover {
+				color: $bg7;
+			}
+		}
+	}
+	.footer-t {
+		p {
+			color: $bg6;
+			font-weight: 600;
+			font-size: 18px;
+			padding-top: 20px;
+			border-top: 1px solid $bg6;
+			a {
+				color: $bg5;
+				transition: 0.6s;
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
+				margin-left: 10px;
+				&:hover {
+					color: $bg7;
+					border-bottom: 1px solid $bg7;
+				}
+			}
+		}
+	}
+}
